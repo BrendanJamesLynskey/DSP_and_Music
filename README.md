@@ -14,6 +14,7 @@ A collection of projects exploring digital signal processing, synthesis, and mus
 | [Synth Orthodox](https://github.com/BrendanJamesLynskey/Synth_Orthodox) | Byzantine Orthodox chant synthesizer — 8 Echoi modes, ison drone, cathedral reverb, pure sine tones |
 | [Synth Modular](https://github.com/BrendanJamesLynskey/Synth_Modular) | Fully-featured modular web synthesizer — dual oscillators, multi-mode filter, LFO, effects chain |
 | [Synth Spectralist](https://github.com/BrendanJamesLynskey/Synth_Spectralist) | Generative ambient synthesizer — evolving spectral textures, drifting harmony, audio-reactive visuals |
+| [Synth FM](https://github.com/BrendanJamesLynskey/Synth_FM) | Browser-based FM synthesizer — 2-operator and 4-operator (DX7-style) with 8 algorithms, ADSR envelopes, 20+ presets, polyphonic keyboard |
 
 ## Analysis & Effects
 
@@ -24,6 +25,9 @@ A collection of projects exploring digital signal processing, synthesis, and mus
 | [Musical Time-Stretching & Pitch-Shifting](https://github.com/BrendanJamesLynskey/MusicalTimeStretchingPitchShifting) | Interactive presentation covering the history and mathematics from 1940s tape splicing to neural synthesis |
 | [Counterpoint](https://github.com/BrendanJamesLynskey/Counterpoint) | Browser-based counterpoint music generator and player with real-time harmonic analysis |
 | [DAFX Python3](https://github.com/BrendanJamesLynskey/DAFX_Python3) | Python 3 ports of the MATLAB scripts from *DAFX: Digital Audio Effects* (2nd edition) |
+| [Vocoder](https://github.com/BrendanJamesLynskey/Vocoder) | Channel vocoder — 8-32 band filter bank, envelope followers, multiple carrier types (sawtooth, noise, chord), real-time mic processing |
+| [Room Acoustics & Reverb](https://github.com/BrendanJamesLynskey/Room_Acoustics_Reverb) | 2D ray-tracing room simulator, Schroeder algorithmic reverb designer, impulse response display, RT60 and acoustic metrics |
+| [Spatial Audio & Ambisonics](https://github.com/BrendanJamesLynskey/Spatial_Audio_Ambisonics) | HRTF binaural panner, first-order Ambisonics encoder/decoder, VBAP speaker configurations, sound field visualisation |
 
 ## Signal Processing Guides
 
@@ -36,6 +40,12 @@ Interactive, animated visual guides — zero dependencies, pure HTML/Canvas/JS.
 | [Constant-Q Transform](https://github.com/BrendanJamesLynskey/ConstantQ-Transform) | Log-frequency analysis that mirrors musical pitch perception — FFT vs CQT comparisons |
 | [Minimum & Maximum Phase Filters](https://github.com/BrendanJamesLynskey/MinimumMaximumPhaseFilters) | Interactive z-plane exploration, allpass decomposition, group delay and energy analysis |
 | [Laplace Transform](https://github.com/BrendanJamesLynskey/LaplaceGuide) | 7-section visual guide — complex exponential decomposition, pole-zero maps, transfer functions |
+
+## Cross-Domain (DSP + ML)
+
+| Project | Description |
+|---------|-------------|
+| [DDSP — Differentiable DSP](https://github.com/BrendanJamesLynskey/DDSP_Differentiable_DSP) | Interactive DDSP explorer — additive + subtractive synthesis controlled by neural-style parameter curves, gradient visualisation, resynthesis presets |
 
 ## Hardware & Algorithms
 
