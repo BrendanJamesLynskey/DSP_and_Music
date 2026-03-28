@@ -39,6 +39,7 @@ Interactive, animated visual guides — zero dependencies, pure HTML/Canvas/JS.
 | [Wavelet Transform](https://github.com/BrendanJamesLynskey/WaveletTransformGuide) | 7-chapter walkthrough — Morlet, Haar, Mexican Hat, Daubechies, with interactive scalograms |
 | [Constant-Q Transform](https://github.com/BrendanJamesLynskey/ConstantQ-Transform) | Log-frequency analysis that mirrors musical pitch perception — FFT vs CQT comparisons |
 | [Minimum & Maximum Phase Filters](https://github.com/BrendanJamesLynskey/MinimumMaximumPhaseFilters) | Interactive z-plane exploration, allpass decomposition, group delay and energy analysis |
+| [Wavelets for Sound](https://github.com/BrendanJamesLynskey/Wavelets_for_Sound) | Kronland-Martinet, Grossmann & Morlet — history, CWT mathematics, Morlet wavelet explorer, scalogram builder, ridge extraction, wavelet synthesis, transient detection, sound transformations, with interactive audio throughout |
 | [Laplace Transform](https://github.com/BrendanJamesLynskey/LaplaceGuide) | 7-section visual guide — complex exponential decomposition, pole-zero maps, transfer functions |
 
 ## Cross-Domain (DSP + ML)
