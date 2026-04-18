@@ -42,6 +42,15 @@ Interactive, animated visual guides — zero dependencies, pure HTML/Canvas/JS.
 | [Wavelets for Sound](https://github.com/BrendanJamesLynskey/Wavelets_for_Sound) | Kronland-Martinet, Grossmann & Morlet — history, CWT mathematics, Morlet wavelet explorer, scalogram builder, ridge extraction, wavelet synthesis, transient detection, sound transformations, with interactive audio throughout |
 | [Laplace Transform](https://github.com/BrendanJamesLynskey/LaplaceGuide) | 7-section visual guide — complex exponential decomposition, pole-zero maps, transfer functions |
 
+## Dispersion, Causality & Complex Analysis
+
+Deep treatments of the mathematics that ties frequency-domain responses
+together — causality, analyticity, dispersion relations.
+
+| Guide | Topic |
+|-------|-------|
+| [Kramers–Kronig Relations](https://github.com/BrendanJamesLynskey/Kramers_Kronig_Relations) | 31-chapter presentation (Markdown + interactive HTML) — complex-analysis foundations, the K–K integrals, cross-discipline sign and plot conventions, and applications to DSP minimum-phase / Bode / dielectric spectroscopy / optical constants / FDTD / VNA / communications / audio |
+
 ## Cross-Domain (DSP + ML)
 
 | Project | Description |
