@@ -56,17 +56,20 @@ together — causality, analyticity, dispersion relations.
 |-------|-------|
 | [Kramers–Kronig Relations](https://github.com/BrendanJamesLynskey/Kramers_Kronig_Relations) | 31-chapter presentation (Markdown + interactive HTML) — complex-analysis foundations, the K–K integrals, cross-discipline sign and plot conventions, and applications to DSP minimum-phase / Bode / dielectric spectroscopy / optical constants / FDTD / VNA / communications / audio |
 
-## Companion Guides to Julius O. Smith III's Books
+## Companions to Julius O. Smith III's Online Textbooks
 
-Interactive browser-first companions to the four CCRMA online books.
+Interactive browser-first guides that sit alongside the five [CCRMA online
+textbooks](https://ccrma.stanford.edu/~jos/) by Julius O. Smith III — each
+repo is a single-file HTML presentation with live canvas visualisations,
+Web Audio playback, KaTeX-rendered mathematics, and historical context.
 
-| Companion | Book |
-|-----------|------|
-| [Companion: *Mathematics of the DFT*](https://github.com/BrendanJamesLynskey/Companion_JOS_Mathematics_of_the_DFT) | [MDFT](https://ccrma.stanford.edu/~jos/mdft/) |
-| [Companion: *Introduction to Digital Filters*](https://github.com/BrendanJamesLynskey/Companion_JOS_Introduction_to_Digital_Filters) | [Filters](https://ccrma.stanford.edu/~jos/filters/) |
-| [Companion: *Spectral Audio Signal Processing*](https://github.com/BrendanJamesLynskey/Companion_JOS_Spectral_Audio_Signal_Processing) | [SASP](https://ccrma.stanford.edu/~jos/sasp/) |
-| [Companion: *Physical Audio Signal Processing*](https://github.com/BrendanJamesLynskey/Companion_JOS_Physical_Audio_Signal_Processing) | [PASP](https://ccrma.stanford.edu/~jos/pasp/) |
-| [Companion: *Audio Signal Processing in Faust*](https://github.com/BrendanJamesLynskey/Companion_JOS_Audio_Signal_Processing_in_Faust) | [Faust](https://ccrma.stanford.edu/~jos/aspf/) |
+| Companion | JOS Book | Topics & Demos |
+|-----------|----------|----------------|
+| [Companion to *Mathematics of the Discrete Fourier Transform* by Julius O. Smith III](https://github.com/BrendanJamesLynskey/Companion_JOS_Mathematics_of_the_DFT) | [MDFT](https://ccrma.stanford.edu/~jos/mdft/) | Bombelli → Wessel → Gauss; click-and-drag complex plane, three proofs of Euler's identity with convergence meter, four-panel phasor, basis-vector projection explorer, orthogonality polygon sum, Fourier-theorem demos, N=8 radix-2 butterfly diagram, $N^2$ vs $N\log N$ complexity widget, Cooley–Tukey history, Web Audio chord spectrum |
+| [Companion to *Introduction to Digital Filters* by Julius O. Smith III](https://github.com/BrendanJamesLynskey/Companion_JOS_Introduction_to_Digital_Filters) | [Filters](https://ccrma.stanford.edu/~jos/filters/) | Black, Bode, Zadeh, Kaiser, Parks–McClellan history; flagship draggable z-plane (click to add poles/zeros, live magnitude/phase/group-delay/IR), convolution slider, elementary filter library (1-pole, biquad, notch, shelving, peaking), min/max-phase zero-reflection, DF-I/DF-II/TDF-II/cascade structure diagrams, FIR window + bilinear-Butterworth IIR designer, allpass cascade, 3-band EQ on drum loop with Web Audio A/B |
+| [Companion to *Spectral Audio Signal Processing* by Julius O. Smith III](https://github.com/BrendanJamesLynskey/Companion_JOS_Spectral_Audio_Signal_Processing) | [SASP](https://ccrma.stanford.edu/~jos/sasp/) | McAulay–Quatieri, Serra & Smith SMS, Atal, Itakura, de Cheveigné, Auger & Flandrin; quadratic peak interpolation viz, MQ sinusoidal-tracking flagship with track-birth/death + oscillator resynth audio, SMS deterministic+stochastic split, LPC envelope with Levinson visualiser, YIN pitch monitor, reassigned spectrogram, chirp-z spiral contour, full Parseval and reassignment derivations |
+| [Companion to *Physical Audio Signal Processing* by Julius O. Smith III](https://github.com/BrendanJamesLynskey/Companion_JOS_Physical_Audio_Signal_Processing) | [PASP](https://ccrma.stanford.edu/~jos/pasp/) | Helmholtz → Raman → McIntyre/Woodhouse → Karplus/Strong → Smith waveguide; flagship plucked-waveguide string with audio, bouncing D'Alembert wave on finite string, Karplus–Strong explorer, two-port scattering junction, bowed-string stick-slip, clarinet reed+bore, 2-D FDTD membrane with virtual mic, modal synthesis presets, 12-key commuted piano, 4-line Hadamard FDN reverb |
+| [Companion to *Audio Signal Processing in Faust* by Julius O. Smith III](https://github.com/BrendanJamesLynskey/Companion_JOS_Audio_Signal_Processing_in_Faust) | [Faust](https://ccrma.stanford.edu/~jos/aspf/) | Mathews → Puckette → Orlarey/Fober/Letz; block-diagram algebra with five composition operators, live type-inference constructor, Faust listings for phasor/polyBLEP/biquad/KS/8×8 Householder FDN, recursion (`~`) semantics derived to a z-plane pole, `faust2…` toolchain tour, channel-strip and FreeVerb case studies, all demos audible via Web Audio |
 
 ## Cross-Domain (DSP + ML)
 
