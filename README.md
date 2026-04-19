@@ -56,6 +56,18 @@ together — causality, analyticity, dispersion relations.
 |-------|-------|
 | [Kramers–Kronig Relations](https://github.com/BrendanJamesLynskey/Kramers_Kronig_Relations) | 31-chapter presentation (Markdown + interactive HTML) — complex-analysis foundations, the K–K integrals, cross-discipline sign and plot conventions, and applications to DSP minimum-phase / Bode / dielectric spectroscopy / optical constants / FDTD / VNA / communications / audio |
 
+## Companion Guides to Julius O. Smith III's Books
+
+Interactive browser-first companions to the four CCRMA online books.
+
+| Companion | Book |
+|-----------|------|
+| [Companion: *Mathematics of the DFT*](https://github.com/BrendanJamesLynskey/Companion_JOS_Mathematics_of_the_DFT) | [MDFT](https://ccrma.stanford.edu/~jos/mdft/) |
+| [Companion: *Introduction to Digital Filters*](https://github.com/BrendanJamesLynskey/Companion_JOS_Introduction_to_Digital_Filters) | [Filters](https://ccrma.stanford.edu/~jos/filters/) |
+| [Companion: *Spectral Audio Signal Processing*](https://github.com/BrendanJamesLynskey/Companion_JOS_Spectral_Audio_Signal_Processing) | [SASP](https://ccrma.stanford.edu/~jos/sasp/) |
+| [Companion: *Physical Audio Signal Processing*](https://github.com/BrendanJamesLynskey/Companion_JOS_Physical_Audio_Signal_Processing) | [PASP](https://ccrma.stanford.edu/~jos/pasp/) |
+| [Companion: *Audio Signal Processing in Faust*](https://github.com/BrendanJamesLynskey/Companion_JOS_Audio_Signal_Processing_in_Faust) | [Faust](https://ccrma.stanford.edu/~jos/aspf/) |
+
 ## Cross-Domain (DSP + ML)
 
 | Project | Description |
