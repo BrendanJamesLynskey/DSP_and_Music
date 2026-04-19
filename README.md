@@ -40,6 +40,8 @@ Interactive, animated visual guides — zero dependencies, pure HTML/Canvas/JS.
 | [Constant-Q Transform](https://github.com/BrendanJamesLynskey/ConstantQ-Transform) | Log-frequency analysis that mirrors musical pitch perception — FFT vs CQT comparisons |
 | [Minimum & Maximum Phase Filters](https://github.com/BrendanJamesLynskey/MinimumMaximumPhaseFilters) | Interactive z-plane exploration, allpass decomposition, group delay and energy analysis |
 | [Wavelets for Sound](https://github.com/BrendanJamesLynskey/Wavelets_for_Sound) | Kronland-Martinet, Grossmann & Morlet — history, CWT mathematics, Morlet wavelet explorer, scalogram builder, ridge extraction, wavelet synthesis, transient detection, sound transformations, with interactive audio throughout |
+| [STFT for Sound](https://github.com/BrendanJamesLynskey/STFT_for_Sound) | Gabor, Allen & Rabiner, Portnoff, the phase vocoder — history, window library, Heisenberg boxes, filter-bank view, COLA round-trip, phase-vocoder time-stretch, Griffin–Lim inversion, spectral subtraction, mel-spectrogram frontend, with interactive audio throughout |
+| [Constant-Q Transform for Sound](https://github.com/BrendanJamesLynskey/Constant_Q_Transform_for_Sound) | Brown & Puckette, Schörkhuber & Klapuri — history from Helmholtz to modern MIR, log-frequency kernel inspector, FFT-vs-CQT flagship comparison, sparse-kernel efficiency, chromagram + chord estimation, onset detection, invertible CQT row-shift pitch-shift, with interactive audio throughout |
 | [Laplace Transform](https://github.com/BrendanJamesLynskey/LaplaceGuide) | 7-section visual guide — complex exponential decomposition, pole-zero maps, transfer functions |
 
 ## Dispersion, Causality & Complex Analysis
