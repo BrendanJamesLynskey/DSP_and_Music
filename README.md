@@ -45,7 +45,7 @@ instrumental *estampie* dances:
 | Project | Style · Era | Voicing &amp; synthesis technique |
 |---------|-------------|---------------------|
 | [Synth Gregorian](https://github.com/BrendanJamesLynskey/Synth_Gregorian) | Plainsong / Gregorian chant · 9th–10th c. | Sung — **formant vocal synthesis** (glottal pulse through resonant vowel formants) |
-| [Synth Organum](https://github.com/BrendanJamesLynskey/Synth_Organum) | Notre-Dame polyphony (Léonin, Pérotin) · c. 1160–1250 | Sung — **formant vocal polyphony** in **Pythagorean just intonation** (beatless consonances) |
+| [Synth Organum](https://github.com/BrendanJamesLynskey/Synth_Organum) | Notre-Dame polyphony (Léonin, Pérotin) · c. 1160–1250 | Sung — **FOF vocal synthesis** (formant-wave-function, the CHANT method) in **Pythagorean just intonation**; beatless consonances |
 | [Synth Ars Nova](https://github.com/BrendanJamesLynskey/Synth_ArsNova) | 14th-c. isorhythmic polyphony (Machaut) · 14th c. | Sung upper voices + instrumental tenor — **formant vocal synthesis** with an isorhythmic *talea/color* engine |
 | [Synth Troubadour](https://github.com/BrendanJamesLynskey/Synth_Troubadour) | Troubadour / trouvère secular song · 12th–13th c. | Sung melody — **formant vocal synthesis** over a **subtractive**-synth vielle drone |
 | [Synth Estampie](https://github.com/BrendanJamesLynskey/Synth_Estampie) | Medieval instrumental dance · 13th–14th c. | Instrumental — **physical modelling** (Karplus–Strong strings over a hurdy-gurdy drone) |
