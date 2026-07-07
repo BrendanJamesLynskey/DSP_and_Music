@@ -50,6 +50,31 @@ instrumental *estampie* dances:
 | [Synth Troubadour](https://github.com/BrendanJamesLynskey/Synth_Troubadour) | Troubadour / trouvère secular song · 12th–13th c. | Sung melody — **formant vocal synthesis** over a **subtractive**-synth vielle drone |
 | [Synth Estampie](https://github.com/BrendanJamesLynskey/Synth_Estampie) | Medieval instrumental dance · 13th–14th c. | Instrumental — **physical modelling** (Karplus–Strong strings over a hurdy-gurdy drone) |
 
+## Vocal Synthesis
+
+A dedicated hub exploring how the **singing voice** itself is synthesized — a
+historically-complete survey from the earliest mechanical speaking machines to
+modern neural methods. An interactive **explorer** lets you A/B every technique
+on the same note and vowel; a companion [`HISTORY.md`](https://github.com/BrendanJamesLynskey/Vocal_Synthesis/blob/main/HISTORY.md)
+tells the full story. All techniques share one interchangeable library
+(`vocal-voices.js`) that also powers the sung early-music apps above.
+
+**[Vocal Synthesis explorer & history](https://github.com/BrendanJamesLynskey/Vocal_Synthesis)** — [launch the app](https://brendanjameslynskey.github.io/Vocal_Synthesis/)
+
+Eight techniques run live in the browser (sample-free, dependency-free), spanning the timeline:
+
+| Era | Technique | Milestone |
+|-----|-----------|-----------|
+| 1939 | **Channel vocoder / VODER** | Dudley's buzz+hiss through a filter bank (Bell Labs) |
+| 1953–80 | **Formant synthesis** (parallel + **Klatt** cascade) | PAT/OVE; the Klatt synth behind DECtalk |
+| 1961–62 | **Kelly–Lochbaum vocal tract** | the first singing computer — "Daisy Bell" |
+| 1971–78 | **LPC** (all-pole) | Speak & Spell |
+| 1979–84 | **FOF / CHANT** | IRCAM's formant-wave-function synthetic choir |
+| 1986–90 | **Additive / sinusoidal** | McAulay–Quatieri, SMS |
+| 2020 | **DDSP-style harmonic + noise** | the differentiable-DSP bridge to the neural era |
+
+Described in the history (need samples or trained models): PSOLA/MBROLA, VOCALOID, STRAIGHT/WORLD, HMM synthesis, and the neural stack (WaveNet, Tacotron, HiFi-GAN, DiffSinger).
+
 ## Analysis & Effects
 
 | Project | Description |
