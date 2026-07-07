@@ -21,8 +21,11 @@ A collection of projects exploring digital signal processing, synthesis, and mus
 A themed set of browser synthesizers that trace the birth of Western music —
 from the unison chant of the early Church to the polyphony of the Gothic
 cathedrals and the secular song and dance of the medieval courts. Each app
-recreates one style in real time using a **different synthesis technique**, and
-each carries an in-app description of its style and how it relates to the others.
+recreates one style in real time, **voiced as it was historically performed** —
+sung with **formant vocal synthesis** where voices were used (chant, organum,
+the sung motet, troubadour song), and played with instrumental synthesis where
+instruments were (the subtractive vielle drone, the physically-modelled dance
+band). Each carries an in-app description of its style and how it relates to the others.
 
 **The lineage.** Everything begins with unaccompanied plainchant. Add a second
 voice to chant and you get *organum*; discipline those voices with rhythm and
@@ -39,13 +42,13 @@ instrumental *estampie* dances:
  (vernacular monophony → dance)
 ```
 
-| Project | Style · Era | Synthesis technique |
+| Project | Style · Era | Voicing &amp; synthesis technique |
 |---------|-------------|---------------------|
-| [Synth Gregorian](https://github.com/BrendanJamesLynskey/Synth_Gregorian) | Plainsong / Gregorian chant · 9th–10th c. | Source–filter **formant vocal** synthesis — glottal pulse through resonant vowel formants |
-| [Synth Organum](https://github.com/BrendanJamesLynskey/Synth_Organum) | Notre-Dame polyphony (Léonin, Pérotin) · c. 1160–1250 | **Additive** synthesis in **Pythagorean just intonation** — beatless perfect consonances |
-| [Synth Ars Nova](https://github.com/BrendanJamesLynskey/Synth_ArsNova) | 14th-c. isorhythmic polyphony (Machaut) · 14th c. | **FM synthesis** — reedy medieval winds, with an isorhythmic *talea/color* engine |
-| [Synth Troubadour](https://github.com/BrendanJamesLynskey/Synth_Troubadour) | Troubadour / trouvère secular song · 12th–13th c. | **Subtractive** synthesis — resonant-filter-swept vielle over a drone |
-| [Synth Estampie](https://github.com/BrendanJamesLynskey/Synth_Estampie) | Medieval instrumental dance · 13th–14th c. | **Physical modelling** — Karplus–Strong strings over a hurdy-gurdy drone |
+| [Synth Gregorian](https://github.com/BrendanJamesLynskey/Synth_Gregorian) | Plainsong / Gregorian chant · 9th–10th c. | Sung — **formant vocal synthesis** (glottal pulse through resonant vowel formants) |
+| [Synth Organum](https://github.com/BrendanJamesLynskey/Synth_Organum) | Notre-Dame polyphony (Léonin, Pérotin) · c. 1160–1250 | Sung — **formant vocal polyphony** in **Pythagorean just intonation** (beatless consonances) |
+| [Synth Ars Nova](https://github.com/BrendanJamesLynskey/Synth_ArsNova) | 14th-c. isorhythmic polyphony (Machaut) · 14th c. | Sung upper voices + instrumental tenor — **formant vocal synthesis** with an isorhythmic *talea/color* engine |
+| [Synth Troubadour](https://github.com/BrendanJamesLynskey/Synth_Troubadour) | Troubadour / trouvère secular song · 12th–13th c. | Sung melody — **formant vocal synthesis** over a **subtractive**-synth vielle drone |
+| [Synth Estampie](https://github.com/BrendanJamesLynskey/Synth_Estampie) | Medieval instrumental dance · 13th–14th c. | Instrumental — **physical modelling** (Karplus–Strong strings over a hurdy-gurdy drone) |
 
 ## Analysis & Effects
 
