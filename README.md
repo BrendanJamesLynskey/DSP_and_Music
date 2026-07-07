@@ -16,6 +16,37 @@ A collection of projects exploring digital signal processing, synthesis, and mus
 | [Synth Spectralist](https://github.com/BrendanJamesLynskey/Synth_Spectralist) | Generative ambient synthesizer — evolving spectral textures, drifting harmony, audio-reactive visuals |
 | [Synth FM](https://github.com/BrendanJamesLynskey/Synth_FM) | Browser-based FM synthesizer — 2-operator and 4-operator (DX7-style) with 8 algorithms, ADSR envelopes, 20+ presets, polyphonic keyboard |
 
+## Early Western Music
+
+A themed set of browser synthesizers that trace the birth of Western music —
+from the unison chant of the early Church to the polyphony of the Gothic
+cathedrals and the secular song and dance of the medieval courts. Each app
+recreates one style in real time using a **different synthesis technique**, and
+each carries an in-app description of its style and how it relates to the others.
+
+**The lineage.** Everything begins with unaccompanied plainchant. Add a second
+voice to chant and you get *organum*; discipline those voices with rhythm and
+you reach the *Ars Nova*. Running alongside the sacred line is a secular,
+vernacular branch — the monophonic songs of the *troubadours*, which fed the
+instrumental *estampie* dances:
+
+```
+ SACRED     Plainsong ──► Organum ──► Ars Nova ──► (Renaissance polyphony)
+ (chant → polyphony)   add a 2nd    rhythmic
+                        voice        independence
+
+ SECULAR    Troubadour song ──► Estampie (instrumental dance)
+ (vernacular monophony → dance)
+```
+
+| Project | Style · Era | Synthesis technique |
+|---------|-------------|---------------------|
+| [Synth Gregorian](https://github.com/BrendanJamesLynskey/Synth_Gregorian) | Plainsong / Gregorian chant · 9th–10th c. | Source–filter **formant vocal** synthesis — glottal pulse through resonant vowel formants |
+| [Synth Organum](https://github.com/BrendanJamesLynskey/Synth_Organum) | Notre-Dame polyphony (Léonin, Pérotin) · c. 1160–1250 | **Additive** synthesis in **Pythagorean just intonation** — beatless perfect consonances |
+| [Synth Ars Nova](https://github.com/BrendanJamesLynskey/Synth_ArsNova) | 14th-c. isorhythmic polyphony (Machaut) · 14th c. | **FM synthesis** — reedy medieval winds, with an isorhythmic *talea/color* engine |
+| [Synth Troubadour](https://github.com/BrendanJamesLynskey/Synth_Troubadour) | Troubadour / trouvère secular song · 12th–13th c. | **Subtractive** synthesis — resonant-filter-swept vielle over a drone |
+| [Synth Estampie](https://github.com/BrendanJamesLynskey/Synth_Estampie) | Medieval instrumental dance · 13th–14th c. | **Physical modelling** — Karplus–Strong strings over a hurdy-gurdy drone |
+
 ## Analysis & Effects
 
 | Project | Description |
