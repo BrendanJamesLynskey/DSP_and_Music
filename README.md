@@ -157,6 +157,32 @@ Web Audio playback, KaTeX-rendered mathematics, and historical context.
 |---------|-------------|
 | [DDSP — Differentiable DSP](https://github.com/BrendanJamesLynskey/DDSP_Differentiable_DSP) | Interactive DDSP explorer — additive + subtractive synthesis controlled by neural-style parameter curves, gradient visualisation, resynthesis presets |
 
+## Neural / ML Audio Synthesis
+
+A twelve-part interactive series on the **machine-learning techniques that generate
+sound** — the human voice, music, and instruments. From WaveNet's sample-by-sample
+gamble to diffusion models and language models that compose, each part derives its
+core mathematics, animates its architecture, and lets you **hear the technique run
+live** in the browser (Web Audio, no samples). Indexed from a dedicated hub, in the
+same single-file house style as the rest of this collection.
+
+**[Neural Sound Synthesis — series hub](https://github.com/BrendanJamesLynskey/Neural_Sound_Synthesis)** — [launch](https://brendanjameslynskey.github.io/Neural_Sound_Synthesis/)
+
+| # | Part | Pillar | Topics &amp; demos |
+|---|------|--------|--------|
+| 01 | [Foundations &amp; the Landscape](https://github.com/BrendanJamesLynskey/Neural_Sound_Synthesis_01_Foundations_and_Landscape) | Core | Representation domains, generative-model taxonomy, μ-law quantization, dilated convs, evaluation (MOS/FAD/CLAP) — four live demos ([launch](https://brendanjameslynskey.github.io/Neural_Sound_Synthesis_01_Foundations_and_Landscape/)) |
+| 02 | Autoregressive Waveform Models | Core | WaveNet, dilated causal convolutions, μ-law, SampleRNN, WaveRNN *(coming soon)* |
+| 03 | Neural Vocoders (GAN) | Voice | MelGAN, Parallel WaveGAN, HiFi-GAN, multi-period/multi-scale discriminators *(coming soon)* |
+| 04 | End-to-End TTS | Voice | Tacotron 1/2, FastSpeech 1/2, VITS (flow + VAE + adversarial) *(coming soon)* |
+| 05 | Neural Singing Voice | Voice | DiffSinger, NNSVS, voice conversion (so-vits-svc, RVC), pitch/vibrato control *(coming soon)* |
+| 06 | Differentiable DSP | Core | DDSP harmonic-plus-noise, multi-scale spectral loss, timbre transfer *(coming soon)* |
+| 07 | GAN Instrument Synthesis | Core | WaveGAN, SpecGAN, GANSynth, instantaneous frequency, latent timbre morphing *(coming soon)* |
+| 08 | Diffusion &amp; Flow Models | Core | DDPM/score-based, DiffWave, WaveGrad, noise schedules, guidance *(coming soon)* |
+| 09 | Neural Audio Codecs | Music | SoundStream, EnCodec, DAC, residual vector quantization *(coming soon)* |
+| 10 | Language-Model Music Generation | Music | AudioLM, MusicLM, MusicGen, Jukebox, tokens over transformers *(coming soon)* |
+| 11 | Latent Diffusion: Text-to-Audio | Music | AudioLDM, Stable Audio, Riffusion, CLAP conditioning *(coming soon)* |
+| 12 | Real-Time, Control &amp; Frontiers | Core | RAVE, streaming, evaluation, watermarking &amp; ethics *(coming soon)* |
+
 ## Hardware & Algorithms
 
 | Project | Description |
