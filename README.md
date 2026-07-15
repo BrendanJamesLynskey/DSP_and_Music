@@ -22,8 +22,9 @@ A themed set of browser synthesizers that trace the birth of Western music —
 from the unison chant of the early Church to the polyphony of the Gothic
 cathedrals and the secular song and dance of the medieval courts. Each app
 recreates one style in real time, **voiced as it was historically performed** —
-sung with **formant vocal synthesis** where voices were used (chant, organum,
-the sung motet, troubadour song), and played with instrumental synthesis where
+sung with **real recorded voices** where voices were used (chant, organum,
+the sung motet, troubadour song) — actual sung vowels from the [VocalSet](https://zenodo.org/records/1193957)
+corpus (CC BY 4.0), pitch-mapped with formant preservation — and played with instrumental synthesis where
 instruments were (the subtractive vielle drone, the physically-modelled dance
 band). Each carries an in-app description of its style and how it relates to the others.
 
@@ -44,10 +45,10 @@ instrumental *estampie* dances:
 
 | Project | Style · Era | Voicing &amp; synthesis technique |
 |---------|-------------|---------------------|
-| [Synth Gregorian](https://github.com/BrendanJamesLynskey/Synth_Gregorian) | Plainsong / Gregorian chant · 9th–10th c. | Sung — **formant vocal synthesis** (glottal pulse through resonant vowel formants) |
-| [Synth Organum](https://github.com/BrendanJamesLynskey/Synth_Organum) | Notre-Dame polyphony (Léonin, Pérotin) · c. 1160–1250 | Sung — **FOF vocal synthesis** (formant-wave-function, the CHANT method) in **Pythagorean just intonation**; beatless consonances |
-| [Synth Ars Nova](https://github.com/BrendanJamesLynskey/Synth_ArsNova) | 14th-c. isorhythmic polyphony (Machaut) · 14th c. | Sung upper voices + instrumental tenor — **formant vocal synthesis** with an isorhythmic *talea/color* engine |
-| [Synth Troubadour](https://github.com/BrendanJamesLynskey/Synth_Troubadour) | Troubadour / trouvère secular song · 12th–13th c. | Sung melody — **formant vocal synthesis** over a **subtractive**-synth vielle drone |
+| [Synth Gregorian](https://github.com/BrendanJamesLynskey/Synth_Gregorian) | Plainsong / Gregorian chant · 9th–10th c. | Sung — **real sampled voices** (VocalSet vowels, formant-preserving pitch-shift) |
+| [Synth Organum](https://github.com/BrendanJamesLynskey/Synth_Organum) | Notre-Dame polyphony (Léonin, Pérotin) · c. 1160–1250 | Sung — **real sampled voices** in **Pythagorean just intonation**; beatless consonances |
+| [Synth Ars Nova](https://github.com/BrendanJamesLynskey/Synth_ArsNova) | 14th-c. isorhythmic polyphony (Machaut) · 14th c. | Sung upper voices (**real sampled voices**) + instrumental tenor, with an isorhythmic *talea/color* engine |
+| [Synth Troubadour](https://github.com/BrendanJamesLynskey/Synth_Troubadour) | Troubadour / trouvère secular song · 12th–13th c. | Sung melody — **real sampled voice** over a **subtractive**-synth vielle drone |
 | [Synth Estampie](https://github.com/BrendanJamesLynskey/Synth_Estampie) | Medieval instrumental dance · 13th–14th c. | Instrumental — **physical modelling** (Karplus–Strong strings over a hurdy-gurdy drone) |
 
 ## Vocal Synthesis
@@ -61,7 +62,7 @@ tells the full story. All techniques share one interchangeable library
 
 **[Vocal Synthesis explorer & history](https://github.com/BrendanJamesLynskey/Vocal_Synthesis)** — [launch the app](https://brendanjameslynskey.github.io/Vocal_Synthesis/)
 
-Eight techniques run live in the browser (sample-free, dependency-free), spanning the timeline:
+The flagship voice is a **real sampled choir** — actual recorded sung vowels ([VocalSet](https://zenodo.org/records/1193957), CC BY 4.0), looped and pitch-mapped with formant preservation. Alongside it, **eight pure-synthesis techniques** run live in the browser, spanning the timeline:
 
 | Era | Technique | Milestone |
 |-----|-----------|-----------|
@@ -73,7 +74,7 @@ Eight techniques run live in the browser (sample-free, dependency-free), spannin
 | 1986–90 | **Additive / sinusoidal** | McAulay–Quatieri, SMS |
 | 2020 | **DDSP-style harmonic + noise** | the differentiable-DSP bridge to the neural era |
 
-Described in the history (need samples or trained models): PSOLA/MBROLA, VOCALOID, STRAIGHT/WORLD, HMM synthesis, and the neural stack (WaveNet, Tacotron, HiFi-GAN, DiffSinger).
+The **sampled voice** now brings the concatenative / **PSOLA** path live (real recorded units, formant-preserving pitch-shift). Still described in the history only (need larger corpora or trained models): MBROLA, VOCALOID, STRAIGHT/WORLD, HMM synthesis, and the neural stack (WaveNet, Tacotron, HiFi-GAN, DiffSinger).
 
 ## Analysis & Effects
 
