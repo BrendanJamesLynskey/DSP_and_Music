@@ -15,6 +15,7 @@ A collection of projects exploring digital signal processing, synthesis, and mus
 | [Synth Modular](https://github.com/BrendanJamesLynskey/Synth_Modular) | Fully-featured modular web synthesizer — dual oscillators, multi-mode filter, LFO, effects chain |
 | [Synth Spectralist](https://github.com/BrendanJamesLynskey/Synth_Spectralist) | Generative ambient synthesizer — evolving spectral textures, drifting harmony, audio-reactive visuals |
 | [Synth FM](https://github.com/BrendanJamesLynskey/Synth_FM) | Browser-based FM synthesizer — 2-operator and 4-operator (DX7-style) with 8 algorithms, ADSR envelopes, 20+ presets, polyphonic keyboard |
+| [Groovebox](https://github.com/BrendanJamesLynskey/Groovebox) | Web-audio DAW groovebox — a TB-303-style acid synth, an 808/909-style synthesized drum machine, a subtractive poly synth and FX, with a phat master bus, 17 groove presets, a musical randomizer, and desktop & mobile layouts |
 
 ## Early Western Music
 
