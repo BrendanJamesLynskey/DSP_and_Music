@@ -15,7 +15,7 @@ A collection of projects exploring digital signal processing, synthesis, and mus
 | [Synth Modular](https://github.com/BrendanJamesLynskey/Synth_Modular) | Fully-featured modular web synthesizer — dual oscillators, multi-mode filter, LFO, effects chain |
 | [Synth Spectralist](https://github.com/BrendanJamesLynskey/Synth_Spectralist) | Generative ambient synthesizer — evolving spectral textures, drifting harmony, audio-reactive visuals |
 | [Synth FM](https://github.com/BrendanJamesLynskey/Synth_FM) | Browser-based FM synthesizer — 2-operator and 4-operator (DX7-style) with 8 algorithms, ADSR envelopes, 20+ presets, polyphonic keyboard |
-| [Phatty](https://github.com/BrendanJamesLynskey/Phatty) | Web-audio DAW groovebox — two mono synth voices (a TB-303-style **bass** + a **lead**), an 808/909-style synthesized drum machine, a subtractive poly synth and FX, a phat master bus, an extended sequencer (up to 64 steps / 4 bars with note-length ties), and 13 reproductions of classic riffs played as bassline + topline (Take On Me, I Feel Love, Enola Gay, Axel F, Tetris, Hall of the Mountain King…); desktop & mobile |
+| [Phatty](https://github.com/BrendanJamesLynskey/Phatty) | Web-audio DAW groovebox — two mono synth voices (a TB-303-style **bass** + a **lead**), an 808/909-style synthesized drum machine, a subtractive poly synth and FX, a phat master bus, an extended sequencer (up to 128 steps / 8 bars with note-length ties), and 14 famous **public-domain melodies** arranged as synth grooves — melody, bassline, chords and beat all synthesized live (Ode to Joy, Für Elise, Turkish March, William Tell, Can-Can, the Tetris theme, Hall of the Mountain King…); desktop & mobile |
 
 ## Early Western Music
 
