@@ -4,7 +4,7 @@ A collection of browser-based projects exploring digital signal processing, synt
 
 | Area | What's inside |
 |------|---------------|
-| **[Synthesizers](Synthesizers.md)** | Eight browser instruments — additive, FM, granular, physical modelling, modular, spectralist, a Byzantine-chant synth, and the Phatty groovebox |
+| **[Synthesizers](Synthesizers.md)** | Nine browser instruments — additive, FM, granular, physical modelling, modular, spectralist, a Byzantine-chant synth, the Phatty groovebox, and the ROLLER drum &amp; bass engine |
 | **[Early Western Music](EarlyWesternMusic.md)** | Chant → Notre-Dame organum → troubadour song, voiced as it was historically performed (three apps) |
 | **[Vocal Synthesis](VocalSynthesis.md)** | The history of singing-voice synthesis — mechanical to neural — with a live A/B explorer |
 | **[Analysis & Effects](AnalysisAndEffects.md)** | Spectral analysers, phase vocoder, reverb / room acoustics, ambisonics, and more (eight tools) |
