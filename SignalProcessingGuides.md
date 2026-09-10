@@ -28,3 +28,16 @@ together — causality, analyticity, dispersion relations.
 | Guide | Topic |
 |-------|-------|
 | [Kramers–Kronig Relations](https://github.com/BrendanJamesLynskey/Kramers_Kronig_Relations) | 31-chapter presentation (Markdown + interactive HTML) — complex-analysis foundations, the K–K integrals, cross-discipline sign and plot conventions, and applications to DSP minimum-phase / Bode / dielectric spectroscopy / optical constants / FDTD / VNA / communications / audio |
+
+## Matrix Methods
+
+The linear-algebra view of filters and networks — what the *structure* of a matrix
+(symmetry, definiteness, unitarity) guarantees about the physical system it describes.
+Two companion decks in the same interactive style, each with a long-form PDF alongside.
+They pick up where the Laplace, minimum/maximum-phase and Kramers–Kronig guides above
+leave off.
+
+| Guide | Topic |
+|-------|-------|
+| [Digital Filters — State, Structure and Stability](https://github.com/BrendanJamesLynskey/Matrix_Concepts_Digital_Filters) | The three matrix structures behind filter design — eigenvalues of the state matrix and the unit circle, Wiener–Hopf with Toeplitz Hermitian PSD autocorrelation, the eigenfilter as a Rayleigh quotient, paraunitary banks and perfect reconstruction. Interactive pole explorer (push the radius past 1 and watch it go unstable), eigenfilter bowl with snap-to-eigenvector, and a paraunitary rotation you can deliberately break |
+| [Network Parameters — S, Z and Y](https://github.com/BrendanJamesLynskey/Matrix_Methods_Network_Parameters) | The continuous-time companion, for RF and high-speed digital — reciprocity as transpose symmetry, passivity as positive semidefiniteness, losslessness as unitarity; poles and zeros as eigenvalues of the state matrix, causality and Kramers–Kronig, Hamiltonian passivity enforcement, the Smith chart as a Möbius map. Interactive two-port scattering explorer, pole–zero explorer, and bilinear map |
