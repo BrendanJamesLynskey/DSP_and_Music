@@ -33,11 +33,13 @@ together — causality, analyticity, dispersion relations.
 
 The linear-algebra view of filters and networks — what the *structure* of a matrix
 (symmetry, definiteness, unitarity) guarantees about the physical system it describes.
-Two companion decks in the same interactive style, each with a long-form PDF alongside.
-They pick up where the Laplace, minimum/maximum-phase and Kramers–Kronig guides above
-leave off.
+Three companion decks in the same interactive style, each with a long-form PDF
+alongside. They pick up where the Laplace, minimum/maximum-phase and Kramers–Kronig
+guides above leave off, and the third takes the whole apparatus to a real design
+problem.
 
 | Guide | Topic |
 |-------|-------|
 | [Digital Filters — State, Structure and Stability](https://github.com/BrendanJamesLynskey/Matrix_Concepts_Digital_Filters) | The three matrix structures behind filter design — eigenvalues of the state matrix and the unit circle, Wiener–Hopf with Toeplitz Hermitian PSD autocorrelation, the eigenfilter as a Rayleigh quotient, paraunitary banks and perfect reconstruction. Interactive pole explorer (push the radius past 1 and watch it go unstable), eigenfilter bowl with snap-to-eigenvector, and a paraunitary rotation you can deliberately break |
 | [Network Parameters — S, Z and Y](https://github.com/BrendanJamesLynskey/Matrix_Methods_Network_Parameters) | The continuous-time companion, for RF and high-speed digital — reciprocity as transpose symmetry, passivity as positive semidefiniteness, losslessness as unitarity; poles and zeros as eigenvalues of the state matrix, causality and Kramers–Kronig, Hamiltonian passivity enforcement, the Smith chart as a Möbius map. Interactive two-port scattering explorer, pole–zero explorer, and bilinear map |
+| [Equalisation in High-Speed Serial Links](https://github.com/BrendanJamesLynskey/SerDes_Equalisation) | The applied deck — one 28 GBd backplane channel characterised from its S-parameters, turned into a pulse response, and equalised block by block (CTLE, transmit FFE, receive FFE, DFE) to a noise budget that lands 1.36 dB short of 10⁻¹². Then seven remedies priced in dB, PAM4 and why FEC stopped being optional, LMS adaptation and link training, and the road to 224 Gb/s. Interactive via-stub explorer and a full equaliser chain with live budget, Q and BER |
