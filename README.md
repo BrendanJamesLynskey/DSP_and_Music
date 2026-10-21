@@ -7,6 +7,14 @@
 
 # DSP & Music
 
+## Series in this index
+
+| Series | What it covers |
+| --- | --- |
+| **[Neural Sound Synthesis](https://brendanjameslynskey.github.io/Neural_Sound_Synthesis/)** | Twelve parts on the machine-learning techniques that generate sound, with live demos |
+| **[Audio Plugins](https://brendanjameslynskey.github.io/Audio_Plugins/)** | A plugins hub, an in-depth JUCE tutorial and seven example plugins |
+| **[Companions to J. O. Smith's textbooks](JOS_Companions.md)** | Five browser-first companions to the CCRMA online books |
+
 A collection of browser-based projects exploring digital signal processing, synthesis, and music — interactive synthesizers, DSP theory guides, plugin examples, and machine-learning audio. Browse by area:
 
 | Area | What's inside |
