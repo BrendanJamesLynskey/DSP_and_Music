@@ -9,6 +9,8 @@
 
 ## Series in this index
 
+3 of the library's 64 series (a series is one hub page that lists its decks).
+
 | Series | What it covers |
 | --- | --- |
 | **[Neural Sound Synthesis](https://brendanjameslynskey.github.io/Neural_Sound_Synthesis/)** | Twelve parts on the machine-learning techniques that generate sound, with live demos |
